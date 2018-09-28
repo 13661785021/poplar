@@ -1,0 +1,24 @@
+{
+    "name": "root/poplar",
+    "description": "The core framework for poplar",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yang xiao gang",
+            "email": "yangxiaogang740539702@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Poplar\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit" : "phpunit"
+    }
+}
